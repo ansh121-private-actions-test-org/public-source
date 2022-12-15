@@ -1,5 +1,5 @@
 name: Calling required workflow
-on: [pull_request]
+on: [pull_request_target]
 jobs:
   call_reusable_workflow:
     uses: ansh121-private-actions-test-org/reusable-wf/.github/workflows/called-required-workflow.yml@main
